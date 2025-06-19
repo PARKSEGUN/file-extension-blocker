@@ -11,5 +11,5 @@ spring:
         format_sql: true
   mvc:
     view:
-      prefix: /templates/
+      prefix: classpath:/templates/
       suffix: .html
